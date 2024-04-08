@@ -1,4 +1,4 @@
-class apirespnse extends apirespn{
+class apiresponse{
     constructor(statuscode, message="success",data){
         this.statuscode = statuscode;
         this.message = message;
@@ -7,3 +7,5 @@ class apirespnse extends apirespn{
         
     }
 }
+
+export {apiresponse}
